@@ -16,7 +16,7 @@ Language Switch:
 
 ### Vision
 
-Flowline aims to become a **reliable foundation for error-resistant industrial processes**.
+Flowline aims to become a **reliable foundation for error-preventing industrial processes**.
 
 The long-term vision is to enable industrial systems where **process errors are prevented
 by design**, not detected after the fact. Flowline focuses on guiding operators,
@@ -82,7 +82,7 @@ The Flowline vision is guided by the following principles:
 
 ### Vision
 
-Flowline verfolgt die Vision, eine **zuverlässige Grundlage für fehlertolerante industrielle Prozesse**
+Flowline verfolgt die Vision, eine **zuverlässige Grundlage für fehlervermeidende industrielle Prozesse**
 zu werden.
 
 Langfristig soll Flowline industrielle Systeme ermöglichen, in denen **Fehler bereits im Design
