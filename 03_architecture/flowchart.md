@@ -12,10 +12,10 @@ flowchart LR
     Operator["Person: Operator"]
     Supervisor["Person: Supervisor / Admin"]
 
-    Flowline["System: Flowline\nFehlervermeidende Prozessplattform\nPoka-Yoke\nDeterministische Ablaufsteuerung"]
+    Flowline["System: Flowline<br/>Fehlervermeidende Prozessplattform<br/>Poka-Yoke<br/>Deterministische Ablaufsteuerung"]
 
-    Automation["External System: Automatisierungsebene\nSPS / Maschinen\nSensorik & Aktorik"]
-    IT["External System: IT-Systeme\nERP / MES / QM"]
+    Automation["External System: Automatisierungsebene<br/>SPS / Maschinen<br/>Sensorik & Aktorik"]
+    IT["External System: IT-Systeme<br/>ERP / MES / QM"]
 
     Operator -->|führt Arbeitsschritte aus| Flowline
     Supervisor -->|konfiguriert & überwacht| Flowline
@@ -34,11 +34,11 @@ flowchart TB
     Supervisor["Person: Supervisor / Admin"]
 
     subgraph Flowline["System: Flowline"]
-        UI["Container: UI\nGeführte Bedienung\nKeine Prozesslogik"]
-        Runtime["Container: Runtime\nDeterministische State Machine\nPoka-Yoke Enforcement"]
-        Integrations["Container: Integrationen\nAdapter Layer\nKeine Fachlogik"]
-        Config["Container: Konfiguration\nFlows / Steps / Regeln"]
-        Audit["Container: Audit & Logs\nZustände / Übergänge"]
+        UI["Container: UI<br/>Geführte Bedienung<br/>Keine Prozesslogik"]
+        Runtime["Container: Runtime<br/>Deterministische State Machine<br/>Poka-Yoke Enforcement"]
+        Integrations["Container: Integrationen<br/>Adapter Layer<br/>Keine Fachlogik"]
+        Config["Container: Konfiguration<br/>Flows / Steps / Regeln"]
+        Audit["Container: Audit & Logs<br/>Zustände / Übergänge"]
     end
 
     Automation["External System: Automatisierungsebene"]
